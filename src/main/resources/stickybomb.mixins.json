@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.michele.stickybomb.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "StickyBombMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "stickybomb",
+  "version": "${version}",
+
+  "name": "Explosion",
+  "description": "First ever mod! hope i do well.",
+  "authors": [
+    "Michele (Me! (: )"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/stickybomb/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.michele.stickybomb.StickyBomb"
+    ],
+    "client": [
+      "net.michele.stickybomb.StickyBombClient"
+    ]
+  },
+  "mixins": [
+    "stickybomb.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
