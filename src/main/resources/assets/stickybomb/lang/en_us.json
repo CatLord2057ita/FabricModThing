@@ -1,5 +1,7 @@
 {
   "item.stickybomb.australium": "Australium Bar",
   "item.stickybomb.raw_australium": "Raw Australium",
-  "block.stickybomb.australium_block": "Australium Block"
+  "block.stickybomb.australium_block": "Australium Block",
+  "block.stickybomb.australium_ore": "Australium Ore",
+  "block.stickybomb.deepslate_australium_ore": "Deepslate Australium Ore"
 }
