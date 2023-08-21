@@ -25,6 +25,8 @@ public class ModItems {
     public static void addItemsToItemGroup() {
         addToItemGroup(ItemGroups.INGREDIENTS, RAW_AUSTRALIUM);
         addToItemGroup(ItemGroups.INGREDIENTS, AUSTRALIUM);
+        addToItemGroup(ModItemGroup.AUSTRALIUM, RAW_AUSTRALIUM);
+        addToItemGroup(ModItemGroup.AUSTRALIUM, AUSTRALIUM);
     }
 
     public static void addToItemGroup(ItemGroup group, Item item) {
